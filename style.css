@@ -13,6 +13,7 @@ body {
 h1 {
     display: flex;
     justify-content: center;
+    padding: 3%;
 }
 
 main {
@@ -31,13 +32,15 @@ section {
     margin-top: 20%;
 }
 
+nav {
+    padding: 5%;
+}
+
 nav ul {
     display: flex;
     color: #BF8049;
     border-radius: 25%;
-    flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 7%;
 }
 
 nav ul li {
@@ -46,13 +49,14 @@ nav ul li {
 }
 
 nav li img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+    border: 5px solid rgb(255, 227, 0);
+    border-radius: 50%;
 }
 
 nav a {
     border-radius: 20%;
-    padding: 25px;
     text-decoration: none;
 }
 
