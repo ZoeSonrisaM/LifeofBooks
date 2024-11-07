@@ -71,32 +71,10 @@ section:nth-of-type(1) {
     flex-direction: column;
 }
 
-.boek-rechts {
-    flex-direction: row;
-}
-
-.boek-amnesty {
+.tekst-rechts {
     flex-direction: row;
 }
 
 .boek-oxfam {
     flex-direction: row-reverse;
 }
-
-.boek-megafoon {
-    flex-direction: row;
-}
-
-/*
-section:first-of-type figure {
-    background-color: blue;
-    width: 150px;
-    height: 150px;
-}
-
-section:nth-of-type(2) figure:first-of-type {
-    background-color: greenyellow;
-    display: flex;
-    justify-content: space-between;
-}
-*/
