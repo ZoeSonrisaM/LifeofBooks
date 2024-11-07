@@ -10,6 +10,10 @@ body {
     font-size: medium;
 }
 
+h2 {
+    font-size: medium;
+}
+
 h1 {
     display: flex;
     justify-content: center;
