@@ -22,6 +22,7 @@ main {
 
 img {
     max-width: 100%;
+    width: 600em;
 }
 
 section {
@@ -67,7 +68,23 @@ footer {
 }
 
 section:nth-of-type(1) {
-    flex-direction: column-reverse;
+    flex-direction: column;
+}
+
+.boek-rechts {
+    flex-direction: row;
+}
+
+.boek-amnesty {
+    flex-direction: row;
+}
+
+.boek-oxfam {
+    flex-direction: row-reverse;
+}
+
+.boek-megafoon {
+    flex-direction: row;
 }
 
 /*
